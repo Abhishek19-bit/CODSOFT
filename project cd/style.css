@@ -1,0 +1,99 @@
+/* Set up Google Fonts */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dce9f9, #f9f9f9);
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Content Styles */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile Image */
+.profile-img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings inside cards */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2c5364;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* List Styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 50px;
+}
